@@ -49,6 +49,25 @@ The study follows a structured ML pipeline:
 - Achieved improvement: **F1 increased from 0.91 to 0.949**
 
 ---
+## 📏 Key Evaluation Metrics
+
+Different evaluation metrics were used across the pipeline depending on the nature of the task and the data distribution. Below is a summary of the metrics used and the rationale behind each choice:
+
+### 🔹 Clustering Tasks (K-Means, Agglomerative)
+- **Metric Used:** Silhouette Score  
+- **Why:** Clustering is unsupervised and lacks true labels. Silhouette Score evaluates the quality of clustering by measuring how similar an object is to its own cluster compared to other clusters. It balances intra-cluster cohesion and inter-cluster separation.
+
+### 🔹 Binary Classification (Target: MNC)
+- **Metrics Used:** Accuracy, F1-Score, Confusion Matrix, SHAP  
+- **Why:** The MNC classes are balanced (~54% vs 46%), so accuracy is a valid performance metric. F1-Score complements it by balancing precision and recall. SHAP values were used to explain the feature contributions and enhance model interpretability.
+
+### 🔹 Multiclass Classification (Target: Scenario)
+- **Metrics Used:** Macro F1-Score, Confusion Matrix, SHAP  
+- **Why:** The scenario variable is imbalanced (43%/41%/16%). Accuracy could be misleading, so macro F1-score was used to treat all classes equally. SHAP values and confusion matrices were used to interpret class-wise performance and understand feature impact.
+
+### 🔹 Genetic Algorithm Optimization
+- **Metric Used:** Weighted F1-Score (with 3-fold cross-validation)  
+- **Why:** During hyperparameter tuning, weighted F1-score was used as a fitness function to ensure performance across all classes, especially the frequent ones. Cross-validation further helped reduce overfitting and improve generalization.
 
 ## 📈 Key Results
 

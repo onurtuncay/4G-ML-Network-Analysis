@@ -78,6 +78,19 @@ Different evaluation metrics were used across the pipeline depending on the natu
 | Clustering (Silhouette)    | K-Means / Agg.     | 0.62          |
 
 ---
+## ⚠️ GitHub Preview Notice
+
+Some parts of the Jupyter notebook may not render properly in GitHub's web-based preview due to platform limitations. In particular:
+
+- Certain sections (e.g., *Handling Missing Values*, *Handling Categorical Columns*) may appear partially or completely blank.
+- Wide content or large tables may require **horizontal scrolling** (slide right →) to be visible.
+
+### ✅ Recommended Workarounds:
+- Download and open the notebook locally using **Jupyter Notebook or JupyterLab**.
+- Alternatively, view the **PDF version** available in this repository for a clean, complete view of all outputs and explanations.
+
+👉 [Download the PDF report](./4G-ML-Network-Analysis-Outputs.pdf)
+
 
 ## ⚙️ Installation
 

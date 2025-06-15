@@ -86,6 +86,21 @@ Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+## 🧪 Experimental Setup
+
+All experiments were conducted on a local machine with the following hardware and software specifications:
+
+- **Device:** Acer Aspire A315-44P Laptop  
+- **Processor:** AMD Ryzen 5 5500U (12 threads, ~2.1GHz)  
+- **RAM:** 16 GB  
+- **Operating System:** Windows 11 Pro (64-bit)  
+- **Graphics:** DirectX 12 support  
+- **Memory Management:** 38 GB page file  
+
+This configuration offered a reliable and balanced environment for running machine learning models and genetic algorithm-based optimizations. It enabled medium-scale experimental workloads to be executed efficiently under constrained hardware resources.
+
+
 ### 📚 Citation
 If you use this dataset, please cite:
 

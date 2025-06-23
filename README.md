@@ -91,6 +91,7 @@ Some parts of the Jupyter notebook may not render properly in GitHub's web-based
 
 👉 [Download the PDF report](./4G-ML-Network-Analysis-Outputs.pdf)
 
+---
 
 ## ⚙️ Installation
 
@@ -99,6 +100,8 @@ Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
 
 ## 📁 Project Structure
 
@@ -112,6 +115,27 @@ pip install -r requirements.txt
 
 └── README.md # Project documentation
 
+---
+
+## ▶️ How to Run This Project
+
+1. Clone the repository  
+```bash
+git clone https://github.com/onurtuncay/4G-ML-Network-Analysis.git
+cd 4G-ML-Network-Analysis
+```
+2. Install required packages
+
+```bash
+pip install -r requirements.txt
+```
+3. Open the notebook
+
+```bash
+jupyter notebook 4G-ML-Network-Analysis.ipynb
+```
+
+---
 
 ## 🧪 Experimental Setup
 
@@ -126,6 +150,7 @@ All experiments were conducted on a local machine with the following hardware an
 
 This configuration offered a reliable and balanced environment for running machine learning models and genetic algorithm-based optimizations. It enabled medium-scale experimental workloads to be executed efficiently under constrained hardware resources.
 
+---
 
 ### 📚 Citation
 If you use this dataset, please cite:
@@ -134,11 +159,14 @@ Kousias, K., Rajiullah, M., Caso, G., Ali, U., Alay, Ö., Brunstrom, A., De Nard
 A Large-Scale Dataset of 4G, NB-IoT, and 5G Non-Standalone Network Measurements.
 DOI: 10.21227/7a8s-nt68
 
+---
 
 ## 👤 Contributor
 Developed and maintained by:
+
 Onur Tuncay – Researcher in Machine Learning & NLP,  Senior Data Scientist and MSc Data Science Student at University of Gloucestershire
 
+---
 
 ### 📝 License
 This project is distributed under the MIT License.

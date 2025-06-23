@@ -100,6 +100,19 @@ Install required dependencies:
 pip install -r requirements.txt
 ```
 
+## 📁 Project Structure
+
+4G-ML-Network-Analysis/
+
+├── 4G-ML-Network-Analysis.ipynb # Main notebook with full pipeline
+
+├── 4G-ML-Network-Analysis-Outputs.pdf # Clean report version of the notebook
+
+├── requirements.txt # Required dependencies
+
+└── README.md # Project documentation
+
+
 ## 🧪 Experimental Setup
 
 All experiments were conducted on a local machine with the following hardware and software specifications:
